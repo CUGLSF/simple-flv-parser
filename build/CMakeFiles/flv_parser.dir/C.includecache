@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leeco/Desktop/flv-parser-master/src/flv-parser.c
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+arpa/inet.h
+-
+flv-parser.h
+/home/leeco/Desktop/flv-parser-master/src/flv-parser.h
+
+/home/leeco/Desktop/flv-parser-master/src/flv-parser.h
+stdint.h
+-
+stdio.h
+-
+
+/home/leeco/Desktop/flv-parser-master/src/main.c
+stdio.h
+-
+stdlib.h
+-
+flv-parser.h
+/home/leeco/Desktop/flv-parser-master/src/flv-parser.h
+

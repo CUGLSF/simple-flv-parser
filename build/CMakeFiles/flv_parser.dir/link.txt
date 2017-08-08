@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/flv_parser.dir/src/main.c.o CMakeFiles/flv_parser.dir/src/flv-parser.c.o  -o flv_parser  -L/usr/local/lib -rdynamic 
