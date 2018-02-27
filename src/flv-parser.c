@@ -17,8 +17,8 @@ const char *sound_formats[] = {
         "Nellymoser",
         "G.711 A-law logarithmic PCM",
         "G.711 mu-law logarithmic PCM",
-        "reserved"
-        "AAC",
+        "reserved",
+        "AAC",                          // 10
         "Speex",
         "not defined by standard",
         "not defined by standard",
@@ -282,7 +282,7 @@ audio_tag_t *read_audio_tag(flv_tag_t *flv_tag) {
         tag->data = malloc((size_t) flv_tag->data_size - 2);
         size_t count = 0;
         count  = fread(tag->data, 1, (size_t) flv_tag->data_size - 2, g_infile); 
-        if(!check_read_error(__LINE__, __FUNCTION__, count, flv_tag->data_size - 22))
+        if(!check_read_error(__LINE__, __FUNCTION__, count, flv_tag->data_size - 2))
         {
             return tag;
         }
